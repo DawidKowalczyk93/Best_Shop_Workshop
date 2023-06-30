@@ -1,5 +1,6 @@
 html, body {
     font-size: 16px;
+    text-align: center;
 }
 
 .main__position {
@@ -78,6 +79,7 @@ header {}
 
 }
 .intro__inner {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -184,7 +186,7 @@ header {}
 }
 
 .shop__advantage {}
-.inner__shop__advantage {
+.shop__advantage__inner {
     display: flex;
     flex-direction: column;
 }
@@ -222,4 +224,78 @@ p.shop__advantage__lead {
 .shop__advantage .shop__advantage__img--iphone {}
 .shop__advantage .shop__advantage__img--trumpet {}
 
+.buy__option {}
+
+.buy__option .buy__option_inner {
+    display: flex;
+    flex-direction: column;
+    gap: 3.6875rem;
+    justify-content: center;
+    margin-bottom: 9.6875rem;
+}
+
+.buy__option .buy__option__box {
+    display: flex;
+    flex-direction: row;
+    gap: 3.625rem;
+    justify-content: center;
+}
+
+.buy__option .buy__option__col {
+    display: flex;
+    flex-direction: column;
+    width: 23.25rem;
+    max-height: 26.61rem;
+    border: 0.0625rem solid rgba(251, 59, 100, 1);
+    border-radius: 1.125rem;
+    height: 100%;
+}
+
+h2.buy__option__hdl {
+    margin-bottom: 4.4375rem;
+}
+.buy__option__col__hdl {
+    font-size: 1.25rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
+
+.buy__option .price {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 4rem;
+    color: rgba(251, 59, 100, 1);
+}
+.buy__option .price--professional {
+    color: rgba(7, 172, 230, 1);
+}
+.buy__option .price--premium {
+    color: rgba(85, 223, 180, 1);
+}
+ul {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+li {
+
+    list-style-type: none;
+    line-height: 2.25rem;
+    text-align: center;
+
+}
+li:before {
+    content: "\2713";
+    color: rgba(85, 223, 180, 1);
+    border: .0625rem solid rgba(85, 223, 180, 1);
+}
+li.negative:before {
+    content: "x";
+    color: rgba(235, 71, 110, 1);
+    border: .0625rem solid rgba(235, 71, 110, 1);
+}
 
