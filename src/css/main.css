@@ -2,16 +2,21 @@ html, body {
     font-size: 16px;
 }
 
-.header {
+.main__position {
     display: flex;
     justify-content: center;
-    background-color: limegreen;
+    background-color: white;
 }
+
+header {}
+
+
 .header__inner {
     width: 100%;
     max-width: 101.625rem;
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    margin-bottom: 8.125rem;
 
 }
 .inner {
@@ -41,6 +46,7 @@ html, body {
     font-weight: 700;
     text-decoration: none;
     color: rgba(165, 165, 165, 1);
+    letter-spacing: 0.205rem;
     min-width: 10.625rem;
     padding-top: 1.75rem;
     padding-bottom: 1.75rem;
@@ -53,4 +59,58 @@ html, body {
     border-bottom: .25rem solid rgba(8, 166, 228, 1);
 
 }
+
+.intro {
+
+}
+.intro__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro .intro__hdl {
+    font-family: "Raleway", sans-serif;
+    font-size: 3.0625rem;
+    font-weight: 400;
+    margin-bottom: 1.25rem;
+}
+.intro .intro__lead {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 2.375rem ;
+}
+
+.intro .intro__img {
+    width: 100%;
+    max-width: 101.625rem;
+
+    height: 37.125rem;
+    /*background-image: url('../images/background.png');*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 37.125rem;
+    margin-left: -4.40625rem;
+
+}
+
+.btn {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif ;
+    font-weight: 700;
+    padding: 1rem 4rem;
+    background-color: grey;
+
+}
+
+.btn__intro {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 2.5rem;
+    padding: 1.375rem 9.8125rem;
+    background-color: rgba(8, 166, 228, 1);
+}
+
 
