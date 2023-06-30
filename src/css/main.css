@@ -9,6 +9,19 @@ html, body {
     width: 100%;
     max-width: 101.625rem;
 }
+h2 {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 2.25rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 6.25rem;
+}
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
 
 header {}
 
@@ -77,9 +90,7 @@ header {}
     margin-bottom: 1.25rem;
 }
 .intro .intro__lead {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
+
     margin-bottom: 2.375rem ;
 }
 
@@ -124,14 +135,8 @@ header {}
     width: 100%;
 
 }
-.stats .stats__hdl {
-    text-align: center;
-    font-family: "Raleway", sans-serif;
-    font-size: 2.25rem;
-    font-weight: 400;
-    color: rgba(0, 0, 0, 1);
-    margin-bottom: 6.25rem;
-}
+.stats .stats__hdl {}
+
 .stats .stats__box {
     display: flex;
     gap: 11.4375rem;
@@ -177,5 +182,44 @@ header {}
     margin: 0;
 
 }
+
+.shop__advantage {}
+.inner__shop__advantage {
+    display: flex;
+    flex-direction: column;
+}
+.shop__advantage .shop__advantage__col {
+    display: flex;
+    width: 100%;
+    max-width: 70.25rem;
+    gap: 12rem;
+    margin-bottom: 2.3125rem;
+}
+.shop__advantage .shop__advantage__col.shop__advantage__col--reverse {
+    flex-direction: row-reverse;
+}
+.shop__advantage .shop__advantage__col .shop__advantage__col--inner {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    max-height: 14.375rem;
+}
+.shop__advantage .shop__advantage_hdl {}
+
+h2.shop__advantage_hdl {
+    text-align: left;
+    margin-bottom: 1.875rem;
+}
+
+p.shop__advantage__lead {
+    text-align: left;
+}
+
+.shop__advantage .shop__advantage__img--macbook {
+    width: 24.1525rem;
+    height: 13.6875rem;
+}
+.shop__advantage .shop__advantage__img--iphone {}
+.shop__advantage .shop__advantage__img--trumpet {}
 
 
